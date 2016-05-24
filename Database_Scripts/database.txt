@@ -1,0 +1,50 @@
+
+Virtual_Registration
+
+CREATE TABLE [dbo].[Virtual_Registration](
+	[Umass_ID] [int] IDENTITY(200000,1) NOT NULL,
+	[Email_ID] [varchar](50) NOT NULL,
+	[First_Name] [varchar](50) NULL,
+	[last_Name] [varchar](50) NULL,
+	[Password] [varchar](50) NULL,
+	[Gender] [varchar](50) NULL,
+	[User_Image_path] [varchar](100) NULL,
+	[Description] [varchar](500) NULL,
+	[Department] [varchar](50) NULL,
+	[Major] [varchar](50) NULL,
+	[College] [varchar](50) NULL,
+	[User_Type] [varchar](50) NULL,
+ CONSTRAINT [PK_Virtual_Registration] PRIMARY KEY CLUSTERED 
+(
+	[Email_ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+
+Virtual_Upload
+
+CREATE TABLE [dbo].[Virtual_Upload](
+	[Model_ID] [int] IDENTITY(3500,1) NOT NULL,
+	[Umass_ID] [int] NOT NULL,
+	[Name] [varchar](50) NULL,
+	[Catageory] [varchar](50) NULL,
+	[ImagePath] [varchar](100) NULL,
+	[ModelPath] [varchar](100) NULL,
+	[Model_Description] [varchar](500) NULL,
+	[Likes_Count] [int] NULL,
+	[Views_Count] [int] NULL,
+	[Creation_Date] [date] NULL,
+ CONSTRAINT [PK_Virtual_Upload] PRIMARY KEY CLUSTERED 
+(
+	[Model_ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+
+Virtual_Likes
+
+CREATE TABLE [dbo].[Virtual_Likes](
+	[Umass_ID] [int] NOT NULL,
+	[Model_ID] [int] NOT NULL,
+) ON [PRIMARY]
+

@@ -1,0 +1,49 @@
+﻿
+#cssmenu, #cssmenu ul, #cssmenu li #cssmenu a {
+list-style : none;
+margin : 0;
+padding : 0;
+border : 0;
+font-size : 14px;
+font-family : Helvetica;
+line-height : 1;
+}
+#cssmenu {
+width : 0 auto;
+height : 150px;
+}
+#cssmenu ul {
+background : top left repeat blue;
+opacity:0.8;
+background-size:100% auto;
+box-shadow : 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+#cssmenu ul:before {
+content : '';
+display : block;
+}
+#cssmenu ul:after {
+content : '';
+display : table;
+clear : both;
+}
+#cssmenu a, #cssmenu a:link, #cssmenu a:visited {
+padding : 70.75px;
+display : block;
+text-decoration : none;
+color : #ffffff;
+}
+#cssmenu a:hover {
+color : white;
+text-shadow : 0 1px 1px #bdcd9c;
+}
+#cssmenu li {
+float : left;
+    height: 43px;
+    width: 567px;
+}
+#cssmenu li:hover {
+background : top left repeat;
+}
+
+/*--Header menu end---*/

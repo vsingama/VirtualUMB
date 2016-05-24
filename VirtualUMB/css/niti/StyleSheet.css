@@ -1,0 +1,187 @@
+﻿ul.menu1
+	{
+    margin: auto 28% auto auto;
+    overflow: hidden;
+    list-style: outside none none;
+    padding: 1%; 
+    font: inherit;
+    vertical-align: baseline;
+    width: 45%;
+    text-align: center;
+    margin-left:30%;
+    color: #0099CC;
+}
+.list1>a
+{
+    text-align:center;
+    width:100%;
+    height: 130px;
+    display:block;
+    color: #0099CC;
+}
+.list1>a:hover
+{
+    text-decoration: underline;
+}
+
+li.list1
+{
+    display: block;
+    float: left;
+    margin-left: 5%;
+    color: #0099CC;
+    text-align:center;
+    
+}
+
+a.content
+{
+    position: relative;
+    height: 158px;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #0099CC;
+}
+
+.imglist
+{    
+    border-style: solid;
+    border-color: #DDD;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-width: 1px 1px 1px;
+    display: block;
+    bottom: 0px;
+    border-radius: 3px 3px 0px 0px;
+    background-clip: padding-box;
+    vertical-align: middle;
+    margin-left: 3%;
+    height:60%;
+}
+
+.label1
+{
+    
+    text-align: center;
+    font-size: x-large;
+    color: #0099CC;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 5%;
+    top: 5%;
+    right: auto;
+    bottom: 0%;
+    left: auto;
+}
+
+.panel-container
+{
+    padding: 1% 2% 2% 1%;
+    border: 1px solid #000000;
+    margin: auto;
+    width: 60%;
+    height: 40%;
+    overflow: hidden;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #0099CC;
+    color: #FFFFFF;
+    font-size: medium;
+}
+
+.panel1
+{
+    border-bottom-style: double;
+    border-bottom-width: 1px;
+    border-bottom-color: #FFFFFF;
+    width: 100%;
+    overflow: hidden;
+    margin: 0%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.panel-heading
+{
+    border-style: none;
+    border-color: #0000FF;
+    list-style-type: none;
+    color:#FFFFFF;
+}
+
+.panel-body
+{
+    display: block;
+    padding: 2%;
+    list-style-type: none;
+    display: none;
+    color:#FFFFFF;
+}
+
+a.content:link, a.content:visit, a.content:active
+{
+    color: #0099CC;
+}
+
+.content
+{
+    margin-top: 50%;
+    top: 50%;
+    position: relative;
+}
+
+.owner
+{
+    background-color: #0099CC;
+    border: thin solid #000000;
+    padding: 1%;
+    position: relative;
+    width: 70%;
+    top: 2%;
+    right: 0px;
+    left: 0px;
+    height: 300px;
+    margin-top: 0%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ownerphoto
+{
+    float:left;
+    margin-left:10%;
+    margin-top:2%;
+}
+
+.ownerdetail
+{
+    width: 39%;
+    margin-top: 1%;
+    color:#FFFFFF;
+    position: relative;
+    float:right;
+    margin-left:0%;
+    text-align: left;
+    top: -3px;
+    left: -184px;
+}
+
+.modelname
+{
+    float:left;
+    margin-left:0%;
+    margin-top:0%;
+    color:#0099CC;
+}
+
+.modellike
+{   
+    float:right;
+    margin-top: 0%;
+    margin-right: 0%;
+    color:#0099CC;
+}

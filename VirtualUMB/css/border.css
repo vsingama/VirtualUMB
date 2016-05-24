@@ -1,0 +1,19 @@
+﻿#border
+{ 
+background-color: #0174DF;	
+height:155px;
+width: 100%;
+font-style:bold;
+}
+
+#container {
+	width: 1000px;
+        margin: 0 auto;
+    	clear:both;
+        
+}
+
+.h2
+{
+    font: white;
+}

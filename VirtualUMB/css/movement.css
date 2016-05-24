@@ -1,0 +1,45 @@
+﻿.imagepage{
+	width:100%;
+	height:200px;
+	border-style:solid;
+	border-width:2px;
+	border-color:#B2CCCC #B2CCCC;
+	text-align: center;
+}
+
+a.new:link
+{
+	text-decoration:none;
+	color:White;
+
+}
+a.new:visited
+{
+    text-decoration:none;
+	
+	color:White;
+}
+
+a.new:hover
+{
+	text-decoration:underline;
+}
+
+a.new1:link
+{
+	text-decoration:none;
+	
+	color:black;
+}
+a.new1:visited
+{
+    text-decoration:none;
+	
+	color:black;
+}
+
+a.new1:hover
+{
+	text-decoration:none;
+	font-weight:bold;
+}

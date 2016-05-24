@@ -1,0 +1,89 @@
+.TitleEditProfile
+        {
+            background-color:blue;
+    box-sizing: border-box;
+	    border: 0.1em solid #BDB76B ;
+		box-shadow: 0px 10px 6px -6px #777;
+		color:White;
+		float:center;
+		align:center;
+        text-align:center;
+        left:10%;
+        right:10%;
+        bottom:2%;
+        }
+        .divEditProfile
+        {
+            height: 538px;
+            margin-top:3%;
+        }
+        .divEdit
+        {
+            height: 186px;
+            width: 279px;
+        }
+        .EditForm
+        {
+            width: 100%;
+            height: 299px;
+        }
+        .EditForm td
+        {
+            background-color:#C4ECFF;
+        }
+        
+        .NewProfilePic
+        {
+            left:2%;
+            height: 296px;
+        }
+            
+        .table-EditForm
+        {
+            width: 66%;
+        }
+        .td-EditProfileData
+        {
+            text-align: left;
+        }
+            
+        .style3
+        {
+            text-align: center;
+            width: 412px;
+            height: 341px;
+        }
+            
+        .table-EditprofileData
+        {
+            height: 467px;
+            width: 374px;
+        }
+            
+        .style4
+        {
+            text-align: left;
+            height: 23px;
+        }
+        .style5
+        {
+            text-align: left;
+            width: 252px;
+        }
+        .style6
+        {
+            text-align: left;
+            height: 23px;
+            width: 252px;
+        }
+        .style7
+        {
+            text-align: left;
+            width: 252px;
+            height: 26px;
+        }
+        .style8
+        {
+            text-align: left;
+            height: 26px;
+        }

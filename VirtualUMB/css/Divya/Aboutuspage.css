@@ -1,0 +1,65 @@
+.TitleEditProfile
+        {
+            background-color:blue;
+    box-sizing: border-box;
+	    border: 0.1em solid #BDB76B ;
+		box-shadow: 0px 10px 6px -6px #777;
+		color:White;
+		float:center;
+		align:center;
+        text-align:center;
+        left:10%;
+        right:10%;
+        bottom:2%;
+        }
+        .center
+        {
+            margin-left: 0px;
+        }
+        .style1
+        {
+            width: 108%;
+        }
+        .tablecenter-content
+        {
+             background-color:#C4ECFF;
+    box-sizing: border-box;
+	    border: 0.1em solid #BDB76B ;
+		box-shadow: 0px 10px 6px -6px #777;
+		color:#003366;
+		float:center;
+		align:center;
+        text-align:center;
+        
+
+        }
+        .tdrole-content
+        {
+            background-color:#FFB56C;
+    box-sizing: border-box;
+	    border: 0.1em solid #fff ;
+		box-shadow: 0px 10px 6px -6px #777;
+		
+		font-size:larger;
+		font-weight:bolder;
+		color:Blue;
+        }
+        .TopContent
+        {
+            margin-top:2%;
+            background-color:#5C5CD6;
+            
+        }
+        .tdcenter-content
+        {
+         margin-left: 1%;
+            
+        }
+        
+         .caraousel
+        {
+            border-style: solid;
+            border-width: thin;
+            
+            
+        }

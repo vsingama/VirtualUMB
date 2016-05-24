@@ -1,0 +1,133 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="UmassMaster.master.cs" Inherits="UmassMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Virtual UMB</title>
+    <link href="css/header.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/movement.css" rel="stylesheet" type="text/css" />
+    <link href="css/border.css" rel="stylesheet" type="text/css" />
+    <link href="css/Footer/footer.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .style1
+        {
+            width: 262px;
+           
+        }
+        
+    </style>
+   <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body onload= "startTime();">
+    <form id="form1" runat="server">
+    <div style="width: 1400px; margin: 0 auto;" class="container1">
+                <div id="border">
+                    <h2 style=" height: 23px;  color:white" > &nbsp;<b> </b> </h2>
+                    <h2 style=" height: 23px;  color:white" > UNIVERSITY OF MASSACHUSETTS BOSTON</h2><br />
+                     <p style=" height: 30px; margin-left: 720px; color:white"  >  
+                         &nbsp;<asp:Label 
+                             ID="lblLogin" runat="server" ForeColor="White" Text="Label" 
+                             CssClass="Logoutcss" Height="32px" 
+                             Width="390px"></asp:Label>
+
+                      
+                    &nbsp;<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Sign In" 
+                             CssClass="logregistercss" BackColor="Blue" BorderStyle="Outset" 
+                             BorderWidth="5px" Font-Bold="True" Font-Names="Microsoft Tai Le" 
+                             Font-Overline="False" Font-Size="Medium" ForeColor="White" Height="32px" 
+                             Width="75px"></asp:Button> &nbsp;
+
+                    <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Register"
+                             CssClass="logregistercss" Width="85px" BackColor="Blue" 
+                             BorderStyle="Outset" BorderWidth="5px" Font-Bold="True" 
+                             Font-Names="Microsoft Tai Le" Font-Size="Medium" Height="32px" 
+                             ForeColor="White"></asp:Button>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    </p>  
+                    <p style="width: 120px; height: 23px; margin-left: 1280px">
+                        <iframe id="I1" align="left" allowtransparency="true" frameborder="0" name="I1" 
+                    scrolling="no" 
+                    src="http://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FUMBCS637&amp;width&amp;layout=box_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=65" 
+                    
+                            style="border-style: none; border-color: inherit; border-width: medium; overflow:hidden; height:65px; width: 105px;">
+                        </iframe>
+                    </p>
+                    &nbsp;&nbsp;&nbsp;
+                    <br />
+                  
+
+        
+            
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+       
+        </asp:ContentPlaceHolder>
+
+<div id="footer-wrap">
+	<footer>
+		<div class="about">
+			<table>
+            <tr>
+            <td>
+            <img src="Images/logo.jpg" style="height: 100px; width: 100px;" />
+            </td>
+
+
+            <td>
+                  <div >
+            <div class="center" style="font-size: 20px;">
+			<ul>
+				<li>100 Morrissey Blvd.</li>
+				<li>100 Morrissey Blvd.</li>
+				<li>Boston, MA 02125-3393</li>
+                <li>                     </li>
+                <li style="font-size:15px">© Copyright 2014 UMass Boston</li>
+			</ul>
+		</div>
+        </div>
+        </td>
+
+
+            <td class="style1">
+            <div class="center" style="font-size: 20px;">
+			<ul>
+				<li><a href="ContactUs.aspx">Contact US</a></li>
+				<li><a href="AboutPage.aspx">About Us</a></li>
+				<li><a href="Privacy.aspx">Privacy policy</a></li>
+				<li><a href="faq.aspx">FAQ's</a></li>
+			</ul>
+		</div>
+      
+       
+            </td>
+            <td>
+            <div class="container">
+<img src="Images/SocialNetwork/socialnetwork.png" alt="Social Network" width="200" height="150" align="center" />
+<div class="textbox">
+<p  class="text" style="background-color:#91B5FF;">
+
+<img class="changeHoverEffect" src="Images/SocialNetwork/facebook.png" alt="facebook" width="50" height="50" style="margin:auto;"/>
+<img class="changeHoverEffect" src="Images/SocialNetwork/twitter.png" alt="twitter" width="50" height="50" style="margin:auto;"/>
+<img class="changeHoverEffect" src="Images/SocialNetwork/google.png" alt="google" width="50" height="50" style="margin:auto;"/>
+</p>
+
+</div>
+</div>
+</td>
+</tr>
+ </table>
+		</div>
+</footer>
+</div>
+<br />
+
+                </div>
+ </form>
+  
+ </body>
+ </html>
